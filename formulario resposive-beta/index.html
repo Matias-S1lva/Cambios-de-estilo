@@ -4,6 +4,7 @@
     <script src="main.js"></script>
     <script src="Forms.js"></script>
     <script src="Get.js"></script>
+    <link rel="stylesheet" href="header.css">
     <link id="css1" rel="stylesheet" href="styles.css">
     <link id="form1" rel="stylesheet" href="formulario.css">
     <link id="nav1" rel="stylesheet" href="nav.css">
@@ -15,22 +16,28 @@
     <title>Cambio de estilos DOM</title>
 </head>
 <body>
-    <nav class="menu">
-        <label class="menu__logo"> <img src="logo.png"   alt=""> </label>
-        <label class="menu__titulo">  I.S.F.D114</label>
-            <ul class="menu__items">                
-                <li><a onclick="F.paginaInicial();"> INICIO   </a></li>
-                <li><a onclick="F.altaAlumno();"> ALTA ALUMNO </a>
-                    <ul class="menu__vertical">
-                        <li><a>BAJA ALUMNO</a></li>
-                        <li><a>MODIFICAR ALUMNO</a></li>             
-                    </ul>
-                </li>
-                <li><a onclick="F.listarAlumnos();"> LISTADO DE ALUMNOS  </a></li>
-            </ul>
-        <label class="menu__modo" > <a onclick="modificarLink();"> <img id="modo" src="LUNA.png" alt="">  </a></label>
-    </nav>
-    <section>
+    <header class="header">
+        <div class="cabecera__container">
+            <label for=""><img class="header__logo" src="COLEGIO1.png" alt=""></label>
+            <label class="header__titulo"> I.S.F.D114</label>
+        </div>
+    </header>
+    <div class="menu__container">
+        <nav class="menu">
+                <ul class="menu__items">                
+                    <li><a onclick="F.paginaInicial();"> INICIO   </a></li>
+                    <li><a onclick="F.altaAlumno();"> ALTA ALUMNO </a>
+                        <ul class="menu__vertical">
+                            <li><a>BAJA ALUMNO</a></li>
+                            <li><a>MODIFICAR ALUMNO</a></li>             
+                        </ul>
+                    </li>
+                    <li><a onclick="F.listarAlumnos();"> LISTADO DE ALUMNOS  </a></li>
+                </ul>
+            <label class="menu__modo" > <a onclick="modificarLink();"> <img id="modo" src="LUNA.png" alt="">  </a></label>
+        </nav>
+    </div>
+    <section class="section">
       
        
     </section>

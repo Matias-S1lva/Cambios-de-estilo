@@ -1,5 +1,6 @@
 .menu {
-    
+    float: right;
+    width: 85%;
     height: 60px;
     display: flex;
     align-items: center;

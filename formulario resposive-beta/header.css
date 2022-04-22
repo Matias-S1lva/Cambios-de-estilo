@@ -1,0 +1,29 @@
+.header{
+    width: 15%;
+    position: absolute;
+    display: flex;
+    background-color: cornflowerblue;  
+    height: 100%;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    align-items: center;
+    box-shadow: 4px 0 10px black;
+}
+.cabecera__container{
+    margin-top: 1rem;
+    display: flex;
+    border-radius: 1rem;
+    background-color:cornflowerblue;
+    flex-direction: column-reverse;
+    align-items: center;
+    box-shadow: 4px 0 10px black;
+}
+.header__logo{
+   height: 10rem;
+}
+.header__titulo{
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7rem;
+    font-style: bold;
+}

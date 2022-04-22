@@ -1,4 +1,6 @@
 .menu {
+    float: right;
+    width: 85%;
     color: #fff;            /*esta propiedad es de prueba no forma parte del codigo funcional*/
     height: 60px;
     margin: auto;
@@ -7,6 +9,7 @@
     background-color: black;
     box-shadow: 5px 0 10px white;
 }
+
 
 .menu__logo img {
     height: 3rem;
