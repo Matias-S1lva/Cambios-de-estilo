@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="main.js"></script>
+    <script src="Forms.js"></script>
+    <script src="Get.js"></script>
+    <link id="css1" rel="stylesheet" href="styles.css">
+    <link id="form1" rel="stylesheet" href="formulario.css">
+    <link id="nav1" rel="stylesheet" href="nav.css">
+    <link id="foot1" rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="tabla.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de estilos DOM</title>
+</head>
+<body>
+    <nav class="menu">
+        <label class="menu__logo"> <img src="logo.png"   alt=""> </label>
+        <label class="menu__titulo">  I.S.F.D114</label>
+            <ul class="menu__items">                
+                <li><a onclick="F.paginaInicial();"> INICIO   </a></li>
+                <li><a onclick="F.altaAlumno();"> ALTA ALUMNO </a>
+                    <ul class="menu__vertical">
+                        <li><a>BAJA ALUMNO</a></li>
+                        <li><a>MODIFICAR ALUMNO</a></li>             
+                    </ul>
+                </li>
+                <li><a onclick="F.listarAlumnos();"> LISTADO DE ALUMNOS  </a></li>
+            </ul>
+        <label class="menu__modo" > <a onclick="modificarLink();"> <img id="modo" src="LUNA.png" alt="">  </a></label>
+    </nav>
+    <section>
+      
+       
+    </section>
+    <footer class="footer">
+        <label for=""><img  src="ESCUDO.png" alt="" class="foot__icon"></label>
+        <label for=""><img src="UBI.png" alt="" class="foot__icon">MITRE 343 BALLESTER BS.AS.</label>
+        <label for=""><img id="tel" src="TEL.png" alt="" class="foot__icon"> 4720-9988</label>
+    </footer>
+</body>
+</html>

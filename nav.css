@@ -1,0 +1,80 @@
+.menu {
+    color: #fff;            /*esta propiedad es de prueba no forma parte del codigo funcional*/
+    height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    box-shadow: 5px 0 10px white;
+}
+
+.menu__logo img {
+    height: 3rem;
+}
+
+.menu__titulo{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.menu__items{
+    color:white;
+    display: flex; 
+    list-style: none;
+    justify-content: space-around
+}
+.menu__items > li > a{   /*todo esto es agregado*/
+    display: block;
+    padding:  15px 20px;  
+    text-decoration: none;
+}
+
+.menu__items > li:hover{
+   background-color: #3866f2;
+   color: #fff;
+}
+
+.menu__vertical{
+    width: 8.29rem;
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+}
+/*.menu__items li {   
+    padding-left: 20px;
+    margin-left: 50px;   esto si es parte del codigo original
+    list-style: none;
+}*/
+
+.menu__items li:hover .menu__vertical{
+    display: block;
+}
+
+.menu__vertical li:hover{
+    background-color: black;
+}
+
+.menu__vertical li a{
+    display: block;
+    color: #fff;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+.menu__modo{
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+    
+}
+#modo{
+    height: 2.5rem;
+    transition: .3s;
+    
+}
+#modo:hover{
+    height: 2.2rem;
+    opacity: .9;
+    background-color:grey;
+    border-radius: .5rem;
+}

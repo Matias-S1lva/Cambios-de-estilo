@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto+Condensed:ital,wght@0,400;1,300;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Hurricane', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(https://img.freepik.com/foto-gratis/textura-hormigon-negro_125540-1547.jpg?t=st=1650177890~exp=1650178490~hmac=b8bb534131a7d404639f28d83baba50323f980afd72560658099d8a2b4c9e5ad&w=1380);
+background-size: cover;
+    min-height: 100vh;
+}
+
+.portada{
+    width: 100%;
+    max-height: 53rem;
+    height: 100%;
+}

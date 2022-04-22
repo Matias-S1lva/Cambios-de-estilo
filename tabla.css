@@ -1,0 +1,40 @@
+.tabla__contenedor{
+    margin: 1rem;
+}
+.tabla{
+    border: 1px solid white;
+    width: 100%;
+    color: aliceblue;
+    background-color: #3866f2;
+    border-radius: 0 0 .3rem .3rem;
+}
+.tabla__titulo{
+    border: solid 1px white;
+    color: aliceblue;
+    width: 100%;
+    padding-right: .5rem;
+    margin-top: 1rem;
+    display: block;
+    height: 2rem;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    border-radius: .3rem .3rem 0rem 0rem;
+}
+
+
+.tabla__icono{
+    float: right;
+    height: 1.5rem;
+   transition: .4s;
+}
+.tabla__icono:hover{
+    
+    background-color:brown;
+    border-radius: .5rem;
+}
+.tabla__datos td{
+    padding: .5rem;
+    text-align: center;
+    border-top: 1px solid white;
+}
