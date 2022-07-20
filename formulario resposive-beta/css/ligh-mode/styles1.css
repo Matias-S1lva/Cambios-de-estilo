@@ -8,18 +8,20 @@
 body{
     font-family: 'Hurricane', cursive;
     font-family: 'Roboto Condensed', sans-serif;
-    background-image: url(https://img.freepik.com/foto-gratis/textura-hormigon-negro_125540-1547.jpg?t=st=1650177890~exp=1650178490~hmac=b8bb534131a7d404639f28d83baba50323f980afd72560658099d8a2b4c9e5ad&w=1380);
-background-size: cover;
+    background-image: url(https://img.freepik.com/foto-gratis/manzana-habitacion-sucia-pintura-patron_1203-5709.jpg?t=st=1650431700~exp=1650432300~hmac=5e45cb04aa84f4b6d6b5f9d299b6e5c121fa0b1a3062898df2ebfddec2aec470&w=1380);
+    background-size: cover;
     min-height: 100vh;
 }
 
+
 .section{
+    overflow: hidden;
     float: right;
     width: 85%;
+     background-size: cover;
 }
 .section .portada{
-    position: relative;
-    width: 100%;
-    height: 51.3rem;
+  height: 55rem;
+   width: 105rem;
     
 }

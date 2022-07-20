@@ -3,7 +3,7 @@
     position: absolute;
     display: flex;
     background-color: cornflowerblue;  
-    height: 100%;
+    height: 100vh;
     justify-content: flex-end;
     flex-direction: column-reverse;
     align-items: center;
